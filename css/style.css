@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    max-width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+
+    background-color: red;
+}
+
+#logo {
+    width: 100px;
+    height: 70px;
+
+    background-color: orange;
+}
+
+.nav-container ul {
+    list-style-type: none;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    border: 1px solid black;
+
+}
+
+#links ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#links li {
+    background-color: orange;
+
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+#login {
+    width: 100px;
+    height: 70px;
+
+    background-color: orange;
+}
